@@ -16,3 +16,11 @@ def add_note(title, body):
     except FileNotFoundError:
         with open("data/notes.json", "w") as f:
             json.dump([note], f, indent=2)
+
+def list_notes():
+    with open("data/notes.json") as f:
+        return json.load(f)
+
+def find_notes(query):
+    query = query.lower()
+    return [n for n in list_notes() if query in n["title"].lower() or query in n["body"].lower()]
