@@ -1,6 +1,6 @@
-## Informe de V1.0.0
+# Informe de V1.0.0
 
-# **Issue #1 – Setup base + notes.json (chore)**
+## **Issue #1 – Setup base + notes.json (chore)**
 
 Acciones realizadas:
 
@@ -12,7 +12,7 @@ Se elaboró un README mínimo con la descripción inicial del proyecto.
 
 Estado: Cerrado
 
-# **Issue #2 – Crear nota (feat)**
+## **Issue #2 – Crear nota (feat)**
 
 Acciones realizadas:
 
@@ -24,7 +24,7 @@ python -m app.cli add "Título" "Cuerpo"
 
 Estado: Cerrado
 
-# **Issue #3 – Listar y buscar (feat)**
+## **Issue #3 – Listar y buscar (feat)**
 
 Acciones realizadas:
 
@@ -34,12 +34,38 @@ Se agregó la búsqueda por parámetros, permitiendo filtrar resultados según t
 
 Estado: Cerrado
 
-# **Issue #4 – Eliminar nota (feat)**
+## **Issue #4 – Eliminar nota (feat)**
 
 Acciones realizadas:
 
 Se desarrolló la función delete_note para eliminar notas a partir de su id.
 
 Integración con CLI para ejecutar la eliminación desde consola.
+
+Estado: Cerrado
+
+## **Issue #5 – Pruebas unitarias básicas (test)**
+
+Acciones realizadas:
+
+Se escribieron pruebas unitarias con pytest para validar las funciones principales:
+
+add_note
+
+list_notes
+
+delete_note
+
+Se comprobó la correcta creación, listado y eliminación de notas.
+
+Estado: Cerrado
+
+## **Issue #6 – Lanzamiento v1.0.0 (release)**
+
+Acciones realizadas:
+
+Se consolidaron todas las funcionalidades implementadas.
+
+Se cerró la versión v1.0.0 como primer release estable.
 
 Estado: Cerrado
