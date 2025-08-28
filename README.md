@@ -3,9 +3,10 @@
 ## Uso
 
 Ejemplo de uso de comando 'add':
-team_notes add "Titulo" "Contenido"
+team_notes add "Titulo" "Contenido" JEJE
 
 ## Uso
 
-Ejemplo de uso del comando `delete`:
+Ejemplo de uso del comando `delete`: 
 team_notes delete <id>
+._.
